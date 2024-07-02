@@ -1,8 +1,8 @@
-export default interface InputFindCustomerDto {
+export interface InputFindCustomerDto {
     id: string;
 }
 
-export default interface OutputFindCustomerDto {
+export interface OutputFindCustomerDto {
     id: string;
     name: string;
     address: {
