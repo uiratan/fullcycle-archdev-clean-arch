@@ -1,6 +1,6 @@
-import CustomerRepositoryInterface from "../../../domain/costumer/repository/customer-repository.interface";
-import Address from "../../../domain/costumer/value-object/address";
-import { InputUpdateCustomerDto, OutputUpdateCustomerDto } from "./update.costumer.dto";
+import CustomerRepositoryInterface from "../../../domain/customer/repository/customer-repository.interface";
+import Address from "../../../domain/customer/value-object/address";
+import { InputUpdateCustomerDto, OutputUpdateCustomerDto } from "./update.customer.dto";
 
 export default class UpdateCustomerUseCase {
     private customerRepository: CustomerRepositoryInterface;

@@ -1,5 +1,5 @@
-import Customer from "../../../domain/costumer/entity/customer";
-import Address from "../../../domain/costumer/value-object/address";
+import Customer from "../../../domain/customer/entity/customer";
+import Address from "../../../domain/customer/value-object/address";
 import FindCustomerUseCase from "./find.customer.usecase";
 
 const customer = new Customer("123", "Customer 1");
@@ -41,7 +41,7 @@ describe("Unit Test Find Customer Usecase", () => {
     expect(result).toEqual(output);
   });
 
-  it("should not find a costumer", async () => {
+  it("should not find a customer", async () => {
     const customerRepository = MockRespository();
     customerRepository.find.mockImplementation(() => { throw new Error("Customer not found") })
     const usecase = new FindCustomerUseCase(customerRepository);
