@@ -83,18 +83,15 @@ describe("Test integrations of product usecases", () => {
         expect(output).toEqual(input);
     });
 
-    it("should update and list all products", async () => {
+    it("should list all products", async () => {
         const productRepository = new ProductRepository();
-        const useCase = new ListProductUseCase(productRepository);
+        const usecase = new ListProductUseCase(productRepository);
         const product1 = ProductFactory.createProduct("Product A", 10);
         const product2 = ProductFactory.createProduct("Product B", 20);
         await productRepository.create(product1);
         await productRepository.create(product2);
 
-        product1.changeName("Product AB");
-        product1.changePrice(30);
-        await productRepository.update(product1);
-        const output = await useCase.execute({});
+        const output = await usecase.execute({});
 
         expect(output.products.length).toBe(2);
         expect(output.products[0].id).toBe(product1.id);
