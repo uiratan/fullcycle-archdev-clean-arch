@@ -37,3 +37,12 @@ npm install sequelize reflect-metadata sequelize-typescript
 ```sh
 npm install sqlite3
 ```
+
+# Desafio: Use cases para Product
+Da mesma forma que fizemos a criação dos use cases realizando as operações: "create", "find", "list", "update" para "Customer", faça:
+
+Crie as operações mencionadas acima para nossa entidade: "Product".
+Implemente os testes de unidade e integração nos quatro use cases.
+
+[Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/product-usecase)
+
