@@ -20,4 +20,8 @@ export default class Notification {
         });
         return message;
     }
+
+    hasErrors(context?: string): boolean {
+        return this.errors.length > 0;
+    }
 }
