@@ -61,3 +61,7 @@ Implemente os testes de unidade e integração nos quatro use cases.
 
 [Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/product-usecase)
 
+# Desafio: Endpoint para Products
+Da mesma forma que fizemos a listagem dos nossos Customers em nossa API, repita o mesmo processo e realize a listagem de Products. Não deixe de realizar o teste automatizado end-to-end.
+
+[Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/api-product)
