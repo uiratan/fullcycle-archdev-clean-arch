@@ -29,7 +29,7 @@ export default class Customer {
     get rewardPoints(): number {
         return this._rewardPoints;
     }
-    
+
     isActive(): boolean {
         return this._active;
     }
