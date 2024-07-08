@@ -23,14 +23,22 @@ describe("E2E test for customer", () => {
                     city: "City 1"
                 }
             });
-
         expect(response.status).toBe(200);
         expect(response.body.name).toBe("Customer 1");
         expect(response.body.address.street).toBe("Street 1");
         expect(response.body.address.number).toBe(123);
         expect(response.body.address.zip).toBe("12345");
         expect(response.body.address.city).toBe("City 1");
+    });
 
+    it("should not create a customer", async () => {
+        const response = await request(app)
+            .post("/customer")
+            .send({
+                name: "Customer 1"
+            });
+
+        expect(response.status).toBe(500);
     });
 
 })
