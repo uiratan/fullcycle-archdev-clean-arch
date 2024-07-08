@@ -38,6 +38,16 @@ npm install sequelize reflect-metadata sequelize-typescript
 npm install sqlite3
 ```
 
+## Express
+```sh
+npm i express @types/express dotenv
+```
+
+## Nodemon
+```sh
+npm i nodemon
+```
+
 # Desafio: Use cases para Product
 Da mesma forma que fizemos a criação dos use cases realizando as operações: "create", "find", "list", "update" para "Customer", faça:
 
