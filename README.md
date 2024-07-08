@@ -48,6 +48,11 @@ npm i express @types/express dotenv
 npm i nodemon
 ```
 
+## Supertest
+```sh
+npm i -D @types/supertest
+```
+
 # Desafio: Use cases para Product
 Da mesma forma que fizemos a criação dos use cases realizando as operações: "create", "find", "list", "update" para "Customer", faça:
 
