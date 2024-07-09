@@ -57,7 +57,14 @@ npm i -D @types/supertest
 npm install -S yup
 ```
 
-# Desafio: Use cases para Product
+## jstoxml
+```sh
+npm i jstoxml
+npm i -D @types/jstoxml
+```
+
+# Desafios
+## Desafio: Use cases para Product
 Da mesma forma que fizemos a criação dos use cases realizando as operações: "create", "find", "list", "update" para "Customer", faça:
 
 Crie as operações mencionadas acima para nossa entidade: "Product".
@@ -65,12 +72,12 @@ Implemente os testes de unidade e integração nos quatro use cases.
 
 [Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/product-usecase)
 
-# Desafio: Endpoint para Products
+## Desafio: Endpoint para Products
 Da mesma forma que fizemos a listagem dos nossos Customers em nossa API, repita o mesmo processo e realize a listagem de Products. Não deixe de realizar o teste automatizado end-to-end.
 
 [Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/api-product)
 
-# Desafio: Notification Pattern em Products
+## Desafio: Notification Pattern em Products
 Notification pattern nos auxilia como um container acumulador de erros para que possamos de uma forma mais simples retornarmos nossos erros todos de uma vez evitando assim a geração excessiva de exceções.
 
 Nesse desafio você deverá utilizar o padrão notification em nossa entidade Products. Não deixe de realizar os testes automatizados.
@@ -79,7 +86,7 @@ Adicione um teste que acumule dois erros ao mesmo tempo.
 
 [Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/notification-product)
 
-# Desafio: Validação de Products
+## Desafio: Validação de Products
 Agora que aprendemos a criar o processo de validação, bem como minimizar o acoplamento em nosso domínio, você deverá realizar o processo de validação na entidade Product seguindo o mesmo processo.
 
 OBS: Não deixe de verificar se todos os testes ainda estão passando. 
