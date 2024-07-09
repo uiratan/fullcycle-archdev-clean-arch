@@ -70,7 +70,7 @@ Da mesma forma que fizemos a listagem dos nossos Customers em nossa API, repita 
 
 [Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/api-product)
 
-# Desafio: Endpoint para Products
+# Desafio: Notification Pattern em Products
 Notification pattern nos auxilia como um container acumulador de erros para que possamos de uma forma mais simples retornarmos nossos erros todos de uma vez evitando assim a geração excessiva de exceções.
 
 Nesse desafio você deverá utilizar o padrão notification em nossa entidade Products. Não deixe de realizar os testes automatizados.
@@ -78,3 +78,10 @@ Nesse desafio você deverá utilizar o padrão notification em nossa entidade Pr
 Adicione um teste que acumule dois erros ao mesmo tempo. 
 
 [Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/notification-product)
+
+# Desafio: Validação de Products
+Agora que aprendemos a criar o processo de validação, bem como minimizar o acoplamento em nosso domínio, você deverá realizar o processo de validação na entidade Product seguindo o mesmo processo.
+
+OBS: Não deixe de verificar se todos os testes ainda estão passando. 
+
+[Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/product-validation)
