@@ -5,15 +5,14 @@
 - Order => OrderItem
 - Product
 
-# Tests
+# Dependencies
 
-## Install
-### Test runner (Jest)
+## Test runner (Jest)
 ```sh
 npm i -D jest @types/jest ts-node --save-dev
 ```
 
-### Transpiler (Vercel)
+## Transpiler (Vercel)
 ```sh
 npm i -D @swc/jest @swc/cli @swc/core
 ```
@@ -53,6 +52,11 @@ npm i nodemon
 npm i -D @types/supertest
 ```
 
+## Yup
+```sh
+npm install -S yup
+```
+
 # Desafio: Use cases para Product
 Da mesma forma que fizemos a criação dos use cases realizando as operações: "create", "find", "list", "update" para "Customer", faça:
 
@@ -65,3 +69,12 @@ Implemente os testes de unidade e integração nos quatro use cases.
 Da mesma forma que fizemos a listagem dos nossos Customers em nossa API, repita o mesmo processo e realize a listagem de Products. Não deixe de realizar o teste automatizado end-to-end.
 
 [Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/api-product)
+
+# Desafio: Endpoint para Products
+Notification pattern nos auxilia como um container acumulador de erros para que possamos de uma forma mais simples retornarmos nossos erros todos de uma vez evitando assim a geração excessiva de exceções.
+
+Nesse desafio você deverá utilizar o padrão notification em nossa entidade Products. Não deixe de realizar os testes automatizados.
+
+Adicione um teste que acumule dois erros ao mesmo tempo. 
+
+[Branch do desafio](https://github.com/uiratan/fullcycle-archdev-clean-arch/tree/notification-product)
